@@ -20,8 +20,8 @@
 	<description>Maven Enterprise Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
-		<url>http://mylandmarktech.com/</url>
+		<name>DevOps Xpress</name>
+		<url>http://DevOpsXpress.com/</url>
 	</organization>
 
 	<properties>
@@ -95,13 +95,13 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-releases/</url>
+	      <name>DevOps Xpress Releases Nexus Repository</name>
+	      <url><url>http://192.168.28.3:8081/repository/tesla-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:8085/landmarktechnologies/repository/flipkart-snapshot/</url>
+	      <name>DevOps Xpress Snapshot Nexus Repository </name>
+	      <url><url>http://192.168.28.3:8081/repository/tesla-snapshots/</</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
